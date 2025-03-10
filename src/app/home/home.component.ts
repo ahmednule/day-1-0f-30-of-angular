@@ -5,7 +5,7 @@ import { HousingLocationComponent } from '../housing-location/housing-location.c
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, HousingLocationComponent],
+  imports: [CommonModule],
   template: `
 <section class="first-section">
   <form>
@@ -14,10 +14,9 @@ import { HousingLocationComponent } from '../housing-location/housing-location.c
   </form>
 </section>
 <section class="second-section">
-  <app-housing-location></app-housing-location>
 </section>
   `,
-  styleUrls: ['./home.component.css',]
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
 
