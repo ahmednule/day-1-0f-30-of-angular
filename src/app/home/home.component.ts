@@ -6,9 +6,14 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <p>
-      home works!
-    </p>
+<section class="first-section">
+  <form>
+    <input type="text" placeholder="Filter by City"/>
+    <button>Search</button>
+  </form>
+</section>
+<section class="second-section">
+</section>
   `,
   styleUrls: ['./home.component.css']
 })
