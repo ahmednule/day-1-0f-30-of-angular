@@ -6,10 +6,10 @@ import { HomeComponent } from './home/home.component';
   selector: 'app-root',
   template: `
   <main>
-    <header>
-      <img src="/assets/logo.svg" alt="This is the logo of the application"/>
+    <header class="brand-name">
+      <img class="brand-logo" src="/assets/logo.svg" alt="This is the logo of the application" aria-hidden="true"/>
       </header>
-      <section>
+      <section class="content">
         <app-home></app-home>
       </section>
   </main>
